@@ -1,0 +1,58 @@
+body {
+    font-family: "Inria Sans", sans-serif;
+    background: linear-gradient(90deg, #EDE0D4, #e0b78e);
+    overflow-x: hidden;
+}
+
+header {
+    background: linear-gradient(90deg, #EDE0D4, #e0b78e);
+}
+
+
+
+.navbar-brand, 
+    .text-primary {
+        color: rgb(85, 52, 21) !important;
+    }
+
+    .nav-link:hover {
+        color: #9C6644;
+    }
+
+    .tervetuloa-teksti {
+        font-size: clamp(2rem, 12vw, 8rem);              /* clamp meinaa min preferred ja suurin */
+        opacity: 1;                  /* läpinäkyväksi */
+        align-content: center;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        z-index: 0;                    /* pysyy kuvan takana */
+        color: #7F5539;                /* sama kuin text-secondary */
+        pointer-events: auto; 
+        white-space: nowrap;  
+        color: transparent;
+        background-color: #7f5539;
+        background-clip: text;
+        -webkit-background-clip: text;
+        pointer-events: auto;
+        background-image: none;
+        cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczMCcgaGVpZ2h0PSczMCcgdmlld0JveD0nMCAwIDUwIDUwJz48cGF0aCBmaWxsPSdnb2xkJyBkPSdNMjUgMy4yTDMwLjggMTcuNmwxNS4yIDEuMy0xMiAxMC41IDQuMyAxNS4yTDI1IDMxbC0xMy4zIDguNCA0LjMtMTUuMi0xMi0xMC41IDE1LjItMS4zTDI1IDMuMnonLz48L3N2Zz4=") 16 16, auto;
+
+    }
+
+
+    .btn-primary {
+        background-image: radial-gradient(#d8b198, #e2b698) !important;
+        border-color: transparent !important;
+        font-family: inherit;
+        font-size: 1.5rem;
+        position: relative;
+    }
+
+    .btn-primary:hover {
+        background-image: radial-gradient(#caa48d, #caa48d) !important;
+        border-color: transparent !important;
+        font-family: inherit;
+        font-size: 1.5rem;
+        position: relative
+    }
